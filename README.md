@@ -5,6 +5,8 @@
 > ACM Trans. Math. Softw. 37, 4, Article 46 (February 2011), 16 pages.  
 > https://doi.org/10.1145/1916461.1916470
 
+- For latest version see: [Multiple Precision Computation](https://dmsmith.lmu.build/)
+
 
 ## FM PACKAGE
 
