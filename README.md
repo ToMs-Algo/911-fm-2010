@@ -37,6 +37,142 @@ need to study it.
 
 ### LIST OF ROUTINES
 
+#### Summary
+
+```
+--------------   Multiple precision versions of Fortran operations and functions   -----------------
+
+
+   =
+   +
+   -
+   *
+   /
+   **
+   ==
+   /=
+   <
+   <=
+   >
+   >=
+   ABS          real    integer    complex
+   ACOS         real               complex
+   AIMAG                           complex
+   AINT         real               complex
+   ANINT        real               complex
+   ASIN         real               complex
+   ATAN         real               complex
+   ATAN2        real
+   BTEST                integer
+   CEILING      real    integer    complex
+   CMPLX        real    integer
+   CONJG                           complex
+   COS          real               complex
+   COSH         real               complex
+   DBLE         real    integer    complex
+   DIGITS       real    integer    complex
+   DIM          real    integer
+   DINT         real               complex
+   EPSILON      real
+   EXP          real               complex
+   EXPONENT     real
+   FLOOR        real    integer    complex
+   FRACTION     real               complex
+   HUGE         real    integer    complex
+   INT          real    integer    complex
+   LOG          real               complex
+   LOG10        real               complex
+   MAX          real    integer
+   MAXEXPONENT  real
+   MIN          real    integer
+   MINEXPONENT  real
+   MOD          real    integer
+   MODULO       real    integer
+   NEAREST      real
+   NINT         real    integer    complex
+   PRECISION    real               complex
+   RADIX        real    integer    complex
+   RANGE        real    integer    complex
+   REAL         real    integer    complex
+   RRSPACING    real
+   SCALE        real               complex
+   SETEXPONENT  real
+   SIGN         real    integer
+   SIN          real               complex
+   SINH         real               complex
+   SPACING      real
+   SQRT         real               complex
+   TAN          real               complex
+   TANH         real               complex
+   TINY         real    integer    complex
+
+
+-----------------------------   Conversion and inquiry functions   ---------------------------------
+
+
+   TO_FM        real    integer    complex    string    other
+   TO_IM        real    integer    complex    string    other
+   TO_ZM        real    integer    complex    string    other
+   TO_INT       real    integer    complex
+   TO_SP        real    integer    complex
+   TO_DP        real    integer    complex
+   TO_SPZ       real    integer    complex
+   TO_DPZ       real    integer    complex
+   IS_OVERFLOW  real    integer    complex
+   IS_UNDERFLOW real    integer    complex
+   IS_UNKNOWN   real    integer    complex
+
+
+-----------------------------------   Formatting functions   ---------------------------------------
+
+
+   FM_FORMAT    real
+   IM_FORMAT            integer
+   ZM_FORMAT                       complex
+
+
+------------------------------------   Integer functions   -----------------------------------------
+
+
+   FACTORIAL            integer
+   GCD                  integer
+   MULTIPLY_MOD         integer
+   POWER_MOD            integer
+
+
+------------------------------------   Special functions   -----------------------------------------
+
+
+   BERNOULLI(N)              real
+   BESSEL_J(N,X)             real
+   BESSEL_Y(N,X)             real
+   BETA(A,B)                 real
+   BINOMIAL(A,B)             real
+   COS_INTEGRAL(X)           real
+   COSH_INTEGRAL(X)          real
+   ERF(X)                    real
+   ERFC(X)                   real
+   EXP_INTEGRAL_EI(X)        real
+   EXP_INTEGRAL_EN(N,X)      real
+   FACTORIAL(X)              real
+   FRESNEL_C(X)              real
+   FRESNEL_S(X)              real
+   GAMMA(X)                  real
+   INCOMPLETE_BETA(X,A,B)    real
+   INCOMPLETE_GAMMA1(A,X)    real
+   INCOMPLETE_GAMMA2(A,X)    real
+   LOG_ERFC(X)               real
+   LOG_GAMMA(X)              real
+   LOG_INTEGRAL(X)           real
+   POLYGAMMA(N,X)            real
+   POCHHAMMER(X,N)           real
+   PSI(X)                    real
+   SIN_INTEGRAL(X)           real
+   SINH_INTEGRAL(X)          real
+```
+
+Several of these functions are described in more detail below.
+
 #### FM - multiple precision real numbers
 
 > 9.  LIST OF ROUTINES
